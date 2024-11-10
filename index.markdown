@@ -5,20 +5,34 @@
 layout: home
 ---
 
-Paper and Data
-===============
+<div style="width: 16em">
+<a style="display: block; border: 1px solid grey; padding: 0.5em; float: left" onclick="https://arxiv.org/abs/2408.08653">Paper (arXiv)</a>
 
-* [Paper (arXiv)](https://arxiv.org/abs/2408.08653)
-* [Data (Zenodo)](https://zenodo.org/records/13962272)
+<a style="display: block; border: 1px solid grey; padding: 0.5em; float: right" onclick="https://zenodo.org/records/13962272">Data (Zenodo)</a>
+</div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xifkG2tTEwU?si=aU6kMtqM3HLdQETt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="740" height="417" src="https://www.youtube.com/embed/xifkG2tTEwU?si=aU6kMtqM3HLdQETt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-## Introduction
+<br>
+
+## Introduction 🎸
+
 Welcome to the website for the ISMIR 2024 paper [GAPS: A Large and Diverse Classical Guitar Dataset and Benchmark Transcription Model](https://arxiv.org/abs/2408.08653). This work was carried out by **Xavier Riley**, **Zixun Nicolas Guo**, **Drew Edwards** and our supervisor **Simon Dixon** on the [AIM programme](https://www.aim.qmul.ac.uk/) at the Center for Digital Music, QMUL. 
 
 GAPS is the largest dataset of real guitar audio (as of Nov 2024), containing 14 hours of freely available audio-score aligned pairs, high-resolution note-level MIDI alignments and performance videos, recorded in diverse conditions by over 200 performers. This dataset has applications to various MIR tasks, including automatic music transcription, score following, performance analysis, generative music modelling and the study of expressive performance timing.
 
-## Preview of Data
+## Demo of Aligned Score
+
+<iframe src="https://www.soundslice.com/slices/tw1wc/embed/" width="100%" height="500" frameBorder="0" allowfullscreen></iframe>
+
+### Files for this ☝️ example
+
+* [Audio](https://aim-qmul.github.io/GAPS/static/tw1wc.wav)
+* [Aligned MIDI](https://aim-qmul.github.io/GAPS/static/tw1wc-fine-aligned.mid)
+* [MusicXML Score](https://aim-qmul.github.io/GAPS/static/tw1wc.xml)
+* [Downbeats/Syncpoints](https://aim-qmul.github.io/GAPS/static/tw1wc-syncpoints.json)
+
+<!-- ## Preview of Data
 #### Audio File:
 <audio controls>
     <source src="{{ site.baseurl }}/assets/media/-Sswc.mp3" type="audio/mpeg">
@@ -31,7 +45,7 @@ GAPS is the largest dataset of real guitar audio (as of Nov 2024), containing 14
   src="{{ site.baseurl }}/assets/media/-Sswc-fine-aligned.mid"
   sound-font visualizer="#myVisualizer">
 </midi-player>
-<midi-visualizer type="piano-roll" id="myVisualizer"></midi-visualizer>
+<midi-visualizer type="piano-roll" id="myVisualizer"></midi-visualizer> -->
 
 ## Cite Us
 <style>
@@ -62,7 +76,3 @@ The GAPS dataset contains copyright material and is shared with researchers unde
   - When research results obtained using GAPS are publicly released (in the form of reports, publications, or derivative software), clear indication of the use of GAPS shall be given, usually in the form of a citation. 
   - Queen Mary University of London shall not be held liable for any errors in the content of GAPS nor damage arising from the use of GAPS.
 The GAPS administrator may update these conditions of use at any time.
-
-## Demo of Aligned Score
-
-<iframe src="https://www.soundslice.com/slices/tw1wc/embed/" width="100%" height="500" frameBorder="0" allowfullscreen></iframe>

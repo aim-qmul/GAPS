@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: GAPS - A Large and Diverse Classical Guitar Dataset and Benchmark Transcription Model
+title: GAPS - Guitar-Aligned Performance Scores Dataset
 email: j.x.riley@qmul.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   This is the companion site for the GAPS Dataset, as described in the paper
