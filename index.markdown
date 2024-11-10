@@ -5,10 +5,23 @@
 layout: home
 ---
 
-<div style="width: 16em">
-<a style="display: block; border: 1px solid grey; padding: 0.5em; float: left" onclick="https://arxiv.org/abs/2408.08653">Paper (arXiv)</a>
+<style>
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 1em 0;
+}
+</style>
 
-<a style="display: block; border: 1px solid grey; padding: 0.5em; float: right" onclick="https://zenodo.org/records/13962272">Data (Zenodo)</a>
+<div style="display: flex; justify-content: center; gap: 1em; margin: 1em auto;">
+  <a href="https://arxiv.org/abs/2408.08653" target="_blank" 
+     style="display: inline-block; border: 2px solid #ccc; padding: 0.5em;
+            text-decoration: none; color: #333; border-radius: 4px; font-weight: bold; background-color: #f9f9f9;
+            transition: all 0.3s ease;">Paper (arXiv)</a>
+
+  <a href="https://zenodo.org/records/13962272" target="_blank" 
+     style="display: inline-block; border: 2px solid #ccc; padding: 0.5em;
+            text-decoration: none; color: #333; border-radius: 4px; font-weight: bold; background-color: #f9f9f9;
+            transition: all 0.3s ease;">Data (Zenodo)</a>
 </div>
 
 <iframe width="740" height="417" src="https://www.youtube.com/embed/xifkG2tTEwU?si=aU6kMtqM3HLdQETt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
